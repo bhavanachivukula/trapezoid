@@ -4,6 +4,11 @@ def add(a,b):
 def divisionbytwo(n):
     return n//2
 
+def multiplication(divisionValue,height):
+    return divisionValue*height
+
 addValue=add(2,2)
 divisionValue=divisionbytwo(addValue)
-print(divisionValue)
+height=3
+multiplicationValue=multiplication(divisionValue,height)
+print(multiplicationValue)
